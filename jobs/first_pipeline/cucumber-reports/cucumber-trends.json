@@ -1,0 +1,16 @@
+{
+  "buildNumbers" : [ "4", "5", "6", "11" ],
+  "passedFeatures" : [ 0, 0, 0, 0 ],
+  "failedFeatures" : [ 1, 1, 1, 0 ],
+  "totalFeatures" : [ 1, 1, 1, 0 ],
+  "passedScenarios" : [ 1, 1, 1, 0 ],
+  "failedScenarios" : [ 1, 1, 1, 0 ],
+  "totalScenarios" : [ 2, 2, 2, 0 ],
+  "passedSteps" : [ 7, 7, 7, 0 ],
+  "failedSteps" : [ 1, 1, 1, 0 ],
+  "skippedSteps" : [ 0, 0, 0, 0 ],
+  "pendingSteps" : [ 0, 0, 0, 0 ],
+  "undefinedSteps" : [ 0, 0, 0, 0 ],
+  "totalSteps" : [ 8, 8, 8, 0 ],
+  "durations" : [ 8039966813, 8039966813, 8039966813, 0 ]
+}

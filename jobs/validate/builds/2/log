@@ -1,0 +1,34 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/validate
+Cloning the remote Git repository
+Cloning repository https://github.com/executeautomation/SeleniumWithCucucumber.git
+ > git init /home/ec2-user/workspace/validate # timeout=10
+Fetching upstream changes from https://github.com/executeautomation/SeleniumWithCucucumber.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/executeautomation/SeleniumWithCucucumber.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/executeautomation/SeleniumWithCucucumber.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/executeautomation/SeleniumWithCucucumber.git # timeout=10
+Fetching upstream changes from https://github.com/executeautomation/SeleniumWithCucucumber.git
+ > git fetch --tags --progress https://github.com/executeautomation/SeleniumWithCucucumber.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 168d249acde2a29e730cadf8a2211283409b24fb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 168d249acde2a29e730cadf8a2211283409b24fb
+Commit message: "Merge pull request #4 from Anaghaprabhu19/patch-2"
+ > git rev-list --no-walk 168d249acde2a29e730cadf8a2211283409b24fb # timeout=10
+[validate] $ mvn validate
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CucumberBasics 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.107 s
+[INFO] Finished at: 2018-06-15T11:59:14+00:00
+[INFO] Final Memory: 3M/15M
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

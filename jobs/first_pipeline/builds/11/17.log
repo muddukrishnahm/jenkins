@@ -1,0 +1,7 @@
+[CucumberReport] Preparing Cucumber Reports
+[CucumberReport] JSON report directory is ""
+[CucumberReport] Copied 0 json files from workspace "/home/ec2-user/workspace/first_pipeline" to reports directory "/var/lib/jenkins/jobs/first_pipeline/builds/11/cucumber-html-reports/.cache"
+[CucumberReport] Copied 0 properties files from workspace "/home/ec2-user/workspace/first_pipeline" to reports directory "/var/lib/jenkins/jobs/first_pipeline/builds/11/cucumber-html-reports/.cache"
+[CucumberReport] Processing 0 json files:
+[CucumberReport] Missing report result - report was not successfully completed
+[CucumberReport] Build status is left unchanged

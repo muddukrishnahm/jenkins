@@ -1,0 +1,18 @@
+[first_pipeline] Running shell script
++ cd /home/ec2-user/workspace/first_pipeline
++ mvn clean
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CucumberBasics 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CucumberBasics ---
+[INFO] Deleting /home/ec2-user/workspace/first_pipeline/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.426 s
+[INFO] Finished at: 2018-06-15T14:56:56+00:00
+[INFO] Final Memory: 3M/15M
+[INFO] ------------------------------------------------------------------------

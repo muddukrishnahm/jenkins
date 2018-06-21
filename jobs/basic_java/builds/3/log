@@ -1,0 +1,36 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/basic_java
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/executeautomation/cucumberbasic.git # timeout=10
+Fetching upstream changes from https://github.com/executeautomation/cucumberbasic.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/executeautomation/cucumberbasic.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6
+Commit message: "Merge pull request #8 from alperkaradeniz/patch-1"
+ > git rev-list --no-walk 7ae0b7f8b8e00d794a648ebe74c7c359a712a8b6 # timeout=10
+[basic_java] $ mvn compile
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CucumberBasics 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4Hwh8s6gMnsDZ/0thGdo2ljh/ELiTSOIA5ndwG/2VJ3+AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CucumberBasics ---
+[8mha:////4AfB1n1jEHEMeXSdgyqjB1vLiD8RL5WZwKjTAqlLD/fRAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/basic_java/src/main/resources
+[INFO] 
+[8mha:////4Hwh8s6gMnsDZ/0thGdo2ljh/ELiTSOIA5ndwG/2VJ3+AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CucumberBasics ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.893 s
+[INFO] Finished at: 2018-06-15T11:28:18+00:00
+[INFO] Final Memory: 6M/15M
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

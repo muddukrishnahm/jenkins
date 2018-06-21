@@ -1,0 +1,21 @@
+Started by upstream project "[8mha:////4O38HIhYSLst5ZnspG+FA7H+9Dzv3L9c7O29gCCnO+nsAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2Covys1OSS+KTSzJwUfQAoKe0ayAAAAA==[0mproject_build" build number [8mha:////4KKAaoFG1yZwmumSw9KzsWjIDF+Qma39X7QNr1BpGKPmAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/YKi/KzU5JL4pNLMnBR9MwB+G/v6yQAAAA==[0m6
+originally caused by:
+ Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/project_deploy
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/muddukrishnahm/upstream.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/upstream.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/upstream.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a
+Commit message: "files added"
+ > git rev-list --no-walk 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a # timeout=10
+[project_deploy] $ /bin/sh -xe /tmp/jenkins2573143308440295616.sh
++ sudo cp /home/ec2-user/workspace/project_build/pipeline/target/pipeline-pipe.war /usr/share/tomcat/webapps
+Triggering a new build of [8mha:////4BSl6ey+cT+aMh6/allXCAbbsB4BSjxMCv7ASEOj/xCJAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2Covys1OSS+OSc1MQ8fQAfy6AEyAAAAA==[0mproject_clean
+Finished: SUCCESS

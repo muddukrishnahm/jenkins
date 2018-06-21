@@ -1,0 +1,20 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building on master in workspace /var/lib/jenkins/workspace/parameter
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/muddukrishnahm/github1.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/github1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/github1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f3bc7d44a9b1f3c7930c150cc0c53b237fa2646c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f3bc7d44a9b1f3c7930c150cc0c53b237fa2646c
+Commit message: "files modified,given a escape line"
+ > git rev-list --no-walk f3bc7d44a9b1f3c7930c150cc0c53b237fa2646c # timeout=10
+[parameter] $ /bin/sh -xe /tmp/jenkins4994763320435870435.sh
++ /home/ec2-user/sendfiles.sh makefile 172.31.18.227
+/tmp/jenkins4994763320435870435.sh: line 2: /home/ec2-user/sendfiles.sh: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

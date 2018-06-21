@@ -1,0 +1,66 @@
+Started by upstream project "[8mha:////4N2TwaPkSWPpF9Cl+G8hHIYMpQuRh+IZdvq2UxvpymKAAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2Covys1OSS+JTUgpz8Sn0AFm/HkMkAAAA=[0mproject_deploy" build number [8mha:////4FDUxLUI9a6iWw//9v4daT+Sex4NBJ0676iU/oGGFwsNAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/YKi/KzU5JL4lNSCnPxKfSMA7MfiG8oAAAA=[0m2
+originally caused by:
+ Started by upstream project "[8mha:////4O38HIhYSLst5ZnspG+FA7H+9Dzv3L9c7O29gCCnO+nsAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2Covys1OSS+KTSzJwUfQAoKe0ayAAAAA==[0mproject_build" build number [8mha:////4FlgwRclVfjrkQNati5654QKHki617w0hRPQKhAV6c7cAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/YKi/KzU5JL4pNLMnBR9EwBSevUUyQAAAA==[0m4
+ originally caused by:
+  Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/project_clean
+Cloning the remote Git repository
+Cloning repository https://github.com/muddukrishnahm/upstream.git
+ > git init /home/ec2-user/workspace/project_clean # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/upstream.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/upstream.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/muddukrishnahm/upstream.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/muddukrishnahm/upstream.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/upstream.git
+ > git fetch --tags --progress https://github.com/muddukrishnahm/upstream.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a
+Commit message: "files added"
+First time build. Skipping changelog.
+[project_clean] $ cmd /c call /tmp/jenkins1101536012528569505.bat
+FATAL: command execution failed
+java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to first
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1741)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:357)
+		at hudson.remoting.Channel.call(Channel.java:955)
+		at hudson.Launcher$RemoteLauncher.launch(Launcher.java:1052)
+		at hudson.Launcher$ProcStarter.start(Launcher.java:449)
+		at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:109)
+		at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+		at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+		at hudson.model.Build$BuildExecution.build(Build.java:206)
+		at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+		at hudson.model.Run.execute(Run.java:1794)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:97)
+		at hudson.model.Executor.run(Executor.java:429)
+Caused: java.io.IOException: Cannot run program "cmd" (in directory "/home/ec2-user/workspace/project_clean"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at hudson.Proc$LocalProc.<init>(Proc.java:249)
+	at hudson.Proc$LocalProc.<init>(Proc.java:218)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:929)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:449)
+	at hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1299)
+	at hudson.Launcher$RemoteLaunchCallable.call(Launcher.java:1259)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:212)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

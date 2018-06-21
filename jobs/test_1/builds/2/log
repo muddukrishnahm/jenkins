@@ -1,0 +1,20 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/test_1
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/muddukrishnahm/mahesh.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/mahesh.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/mahesh.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision a999afe7d79240438a81fab81bc5dae84e3868b0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a999afe7d79240438a81fab81bc5dae84e3868b0
+Commit message: "file added"
+ > git rev-list --no-walk a999afe7d79240438a81fab81bc5dae84e3868b0 # timeout=10
+[test_1] $ /bin/sh -xe /tmp/jenkins3642286388975614336.sh
++ cd '/home/ec2-user/workspace/test_1/target/*.war'
+/tmp/jenkins3642286388975614336.sh: line 2: cd: /home/ec2-user/workspace/test_1/target/*.war: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

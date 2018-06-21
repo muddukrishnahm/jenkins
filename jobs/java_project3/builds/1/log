@@ -1,0 +1,25 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/java_project3
+Cloning the remote Git repository
+Cloning repository https://github.com/muddukrishnahm/work3.git
+ > git init /home/ec2-user/workspace/java_project3 # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/work3.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/work3.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/muddukrishnahm/work3.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/muddukrishnahm/work3.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/work3.git
+ > git fetch --tags --progress https://github.com/muddukrishnahm/work3.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cfda1ab6e7d2b3451eec29a0d79e0bb34c10a3d3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cfda1ab6e7d2b3451eec29a0d79e0bb34c10a3d3
+Commit message: "repo added"
+First time build. Skipping changelog.
+[java_project3] $ /bin/sh -xe /tmp/jenkins8896356494375693135.sh
++ cd /var/lib/jenkins/workspace/java_project3
+/tmp/jenkins8896356494375693135.sh: line 2: cd: /var/lib/jenkins/workspace/java_project3: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

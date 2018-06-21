@@ -1,0 +1,57 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/java_project3
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/muddukrishnahm/work3.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/work3.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/work3.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cfda1ab6e7d2b3451eec29a0d79e0bb34c10a3d3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cfda1ab6e7d2b3451eec29a0d79e0bb34c10a3d3
+Commit message: "repo added"
+ > git rev-list --no-walk cfda1ab6e7d2b3451eec29a0d79e0bb34c10a3d3 # timeout=10
+[java_project3] $ /bin/sh -xe /tmp/jenkins7286000248680740569.sh
++ cd /home/ec2-user/workspace/java_project3/Work
++ mvn package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Work 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Work ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/java_project3/Work/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ Work ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Work ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/java_project3/Work/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ Work ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Work ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ Work ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [Work] in [/home/ec2-user/workspace/java_project3/Work/target/Work-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ec2-user/workspace/java_project3/Work/src/main/webapp]
+[INFO] Webapp assembled in [20 msecs]
+[INFO] Building war: /home/ec2-user/workspace/java_project3/Work/target/Work-1.0-SNAPSHOT.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.437 s
+[INFO] Finished at: 2018-06-12T07:50:11+00:00
+[INFO] Final Memory: 6M/16M
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

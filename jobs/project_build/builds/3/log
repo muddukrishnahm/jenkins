@@ -1,0 +1,58 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/project_build
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/muddukrishnahm/upstream.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/upstream.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/upstream.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a
+Commit message: "files added"
+ > git rev-list --no-walk 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a # timeout=10
+[project_build] $ /bin/sh -xe /tmp/jenkins1971277609611032343.sh
++ cd /home/ec2-user/workspace/project_build/pipeline
++ mvn package
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building pipeline pipe
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ pipeline ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/project_build/pipeline/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ pipeline ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pipeline ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/project_build/pipeline/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ pipeline ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ pipeline ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ pipeline ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [pipeline] in [/home/ec2-user/workspace/project_build/pipeline/target/pipeline-pipe]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ec2-user/workspace/project_build/pipeline/src/main/webapp]
+[INFO] Webapp assembled in [18 msecs]
+[INFO] Building war: /home/ec2-user/workspace/project_build/pipeline/target/pipeline-pipe.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.471 s
+[INFO] Finished at: 2018-06-12T16:13:15+00:00
+[INFO] Final Memory: 6M/16M
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4N2TwaPkSWPpF9Cl+G8hHIYMpQuRh+IZdvq2UxvpymKAAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2Covys1OSS+JTUgpz8Sn0AFm/HkMkAAAA=[0mproject_deploy
+Finished: SUCCESS

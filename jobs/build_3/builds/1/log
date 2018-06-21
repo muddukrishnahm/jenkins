@@ -1,0 +1,25 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building in workspace /var/lib/jenkins/workspace/build_3
+Cloning the remote Git repository
+Cloning repository https://github.com/muddukrishnahm/repo1.git
+ > git init /var/lib/jenkins/workspace/build_3 # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/repo1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/muddukrishnahm/repo1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/muddukrishnahm/repo1.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/repo1.git
+ > git fetch --tags --progress https://github.com/muddukrishnahm/repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 90bce74d5fd8998fc8404b57795ab552c1c9c81b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 90bce74d5fd8998fc8404b57795ab552c1c9c81b
+Commit message: "targrt files added"
+First time build. Skipping changelog.
+[build_3] $ /bin/sh -xe /tmp/jenkins3831096202087844206.sh
++ /home/ec2-user/script.sh
+/tmp/jenkins3831096202087844206.sh: line 2: /home/ec2-user/script.sh: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

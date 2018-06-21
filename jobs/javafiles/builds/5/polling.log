@@ -1,0 +1,9 @@
+Started on Jun 13, 2018 5:01:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision e15e6588e95693a83276eda32958192a8dd8574c (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/muddukrishnahm/javafiles.git # timeout=10
+Found 1 remote heads on https://github.com/muddukrishnahm/javafiles.git
+[poll] Latest remote head revision on refs/heads/master is: 68d9e867990e9f30288aad2c05ce55e73521ed13
+Done. Took 0.29 sec
+Changes found

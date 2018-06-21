@@ -1,0 +1,25 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building on master in workspace /var/lib/jenkins/workspace/dummy
+Cloning the remote Git repository
+Cloning repository https://github.com/muddukrishnahm/para.git
+ > git init /var/lib/jenkins/workspace/dummy # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/para.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/para.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/muddukrishnahm/para.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/muddukrishnahm/para.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/para.git
+ > git fetch --tags --progress https://github.com/muddukrishnahm/para.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision eade797a4eea83fd009cc2e0f31296bc26abf6be (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f eade797a4eea83fd009cc2e0f31296bc26abf6be
+Commit message: "file added"
+First time build. Skipping changelog.
+[dummy] $ /bin/sh -xe /tmp/jenkins333947424141062326.sh
++ cd /var/lib/jenkins/workspace/parameter/dummy.sh
+/tmp/jenkins333947424141062326.sh: line 2: cd: /var/lib/jenkins/workspace/parameter/dummy.sh: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,63 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>110</queueId>
+  <timestamp>1529065547193</timestamp>
+  <startTime>1529065547195</startTime>
+  <result>FAILURE</result>
+  <duration>1408</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>git &apos;https://github.com/executeautomation/SeleniumWithCucucumber.git&apos;
+
+sh &apos;&apos;&apos;cd /home/ec2-user/workspace/first_pipeline
+
+mvn verify&apos;&apos;&apos;</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>157329752</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>343687582</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>680529242</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>457443664</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>103324823</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>4</iota>
+    <head>1:4</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

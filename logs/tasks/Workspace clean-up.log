@@ -1,0 +1,22 @@
+Started at Tue Jun 19 07:26:14 UTC 2018
+Checking automatic_deployment
+Checking basic_java
+Checking build_1
+Checking build_2
+Checking build_3
+Checking build_5
+Checking c_project
+Checking dummy
+Checking email_notifier
+Checking first_pipeline
+Checking java_project
+Checking java_project2
+Checking java_project3
+Checking javafiles
+Checking parameter
+Checking project_build
+Checking project_clean
+Checking project_deploy
+Checking test_1
+Checking validate
+Finished at Tue Jun 19 07:26:14 UTC 2018. 210ms

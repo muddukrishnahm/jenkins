@@ -1,0 +1,11 @@
+commit 68d9e867990e9f30288aad2c05ce55e73521ed13
+tree 42ed13e0ed0dfe1a362c696e29019500bb2ba7a8
+parent e15e6588e95693a83276eda32958192a8dd8574c
+author krishna <krishna@gmail.com> 2018-06-13 17:00:11 +0000
+committer krishna <krishna@gmail.com> 2018-06-13 17:00:11 +0000
+
+    forloop modified
+
+
+
+:100644 100644 e1bd2a2440c8f08122af6a40bbd8edfbfd19a487 905fcc67595a95f9d852615fbabc4286512d60ca M	forloop.java

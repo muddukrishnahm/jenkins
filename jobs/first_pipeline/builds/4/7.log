@@ -1,0 +1,8 @@
+[CucumberReport] Preparing Cucumber Reports
+[CucumberReport] JSON report directory is ""
+[CucumberReport] Copied 1 json files from workspace "/home/ec2-user/workspace/first_pipeline" to reports directory "/var/lib/jenkins/jobs/first_pipeline/builds/4/cucumber-html-reports/.cache"
+[CucumberReport] Copied 2 properties files from workspace "/home/ec2-user/workspace/first_pipeline" to reports directory "/var/lib/jenkins/jobs/first_pipeline/builds/4/cucumber-html-reports/.cache"
+[CucumberReport] Processing 1 json files:
+[CucumberReport] /var/lib/jenkins/jobs/first_pipeline/builds/4/cucumber-html-reports/.cache/target/cucumber.json
+[CucumberReport] Found 1 failed steps, while expected not more than 0
+[CucumberReport] Build status is left unchanged

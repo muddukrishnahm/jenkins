@@ -1,0 +1,40 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/project_build
+Cloning the remote Git repository
+Cloning repository https://github.com/muddukrishnahm/upstream.git
+ > git init /home/ec2-user/workspace/project_build # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/upstream.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/upstream.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/muddukrishnahm/upstream.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/muddukrishnahm/upstream.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/upstream.git
+ > git fetch --tags --progress https://github.com/muddukrishnahm/upstream.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 143c475d1ea5fa0ec1feb0a43ff751fabcf8a87a
+Commit message: "files added"
+First time build. Skipping changelog.
+[project_build] $ /bin/sh -xe /tmp/jenkins1053587147252777834.sh
++ cd /home/ec2-user/workspace
++ mvn package
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.088 s
+[INFO] Finished at: 2018-06-12T16:07:31+00:00
+[INFO] Final Memory: 3M/15M
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/home/ec2-user/workspace). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

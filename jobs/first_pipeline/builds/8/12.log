@@ -1,0 +1,54 @@
+[first_pipeline] Running shell script
++ cd /home/ec2-user/workspace/first_pipeline
++ mvn install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CucumberBasics 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CucumberBasics ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/first_pipeline/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ CucumberBasics ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/ec2-user/workspace/first_pipeline/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CucumberBasics ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/first_pipeline/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ CucumberBasics ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to /home/ec2-user/workspace/first_pipeline/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ec2-user/workspace/first_pipeline/src/test/java/steps/LoginStep.java:[10,27] cannot access org.openqa.selenium.By
+bad class file: ZipFileIndexFileObject[/home/ec2-user/.m2/repository/org/seleniumhq/selenium/selenium-api/3.0.1/selenium-api-3.0.1.jar(org/openqa/selenium/By.class)]
+class file has wrong version 52.0, should be 50.0
+Please remove or make sure it appears in the correct subdirectory of the classpath.
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.093 s
+[INFO] Finished at: 2018-06-15T14:52:59+00:00
+[INFO] Final Memory: 16M/38M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile (default-testCompile) on project CucumberBasics: Compilation failure
+[ERROR] /home/ec2-user/workspace/first_pipeline/src/test/java/steps/LoginStep.java:[10,27] cannot access org.openqa.selenium.By
+[ERROR] bad class file: ZipFileIndexFileObject[/home/ec2-user/.m2/repository/org/seleniumhq/selenium/selenium-api/3.0.1/selenium-api-3.0.1.jar(org/openqa/selenium/By.class)]
+[ERROR] class file has wrong version 52.0, should be 50.0
+[ERROR] Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

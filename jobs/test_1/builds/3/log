@@ -1,0 +1,70 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/test_1
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/muddukrishnahm/mahesh.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/mahesh.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/mahesh.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision a999afe7d79240438a81fab81bc5dae84e3868b0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a999afe7d79240438a81fab81bc5dae84e3868b0
+Commit message: "file added"
+ > git rev-list --no-walk a999afe7d79240438a81fab81bc5dae84e3868b0 # timeout=10
+[test_1] $ /bin/sh -xe /tmp/jenkins3592746626579056465.sh
++ cd /home/ec2-user/workspace/test_1
++ mvn deploy
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Pacakge pack
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Pacakge ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/test_1/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ Pacakge ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Pacakge ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/test_1/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ Pacakge ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Pacakge ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ Pacakge ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [Pacakge] in [/home/ec2-user/workspace/test_1/target/Pacakge-pack]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ec2-user/workspace/test_1/src/main/webapp]
+[INFO] Webapp assembled in [19 msecs]
+[INFO] Building war: /home/ec2-user/workspace/test_1/target/Pacakge-pack.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Pacakge ---
+[INFO] Installing /home/ec2-user/workspace/test_1/target/Pacakge-pack.war to /home/ec2-user/.m2/repository/org/package/com/Pacakge/pack/Pacakge-pack.war
+[INFO] Installing /home/ec2-user/workspace/test_1/pom.xml to /home/ec2-user/.m2/repository/org/package/com/Pacakge/pack/Pacakge-pack.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ Pacakge ---
+Uploading: file:///home/ec2-user/workspace/test_1/target/mahesh/org/package/com/Pacakge/pack/Pacakge-pack.war
+3/3 KB            Uploaded: file:///home/ec2-user/workspace/test_1/target/mahesh/org/package/com/Pacakge/pack/Pacakge-pack.war (3 KB at 424.0 KB/sec)
+Uploading: file:///home/ec2-user/workspace/test_1/target/mahesh/org/package/com/Pacakge/pack/Pacakge-pack.pom
+2/2 KB            Uploaded: file:///home/ec2-user/workspace/test_1/target/mahesh/org/package/com/Pacakge/pack/Pacakge-pack.pom (2 KB at 1367.2 KB/sec)
+Downloading: file:///home/ec2-user/workspace/test_1/target/mahesh/org/package/com/Pacakge/maven-metadata.xml
+         Uploading: file:///home/ec2-user/workspace/test_1/target/mahesh/org/package/com/Pacakge/maven-metadata.xml
+300/300 B               Uploaded: file:///home/ec2-user/workspace/test_1/target/mahesh/org/package/com/Pacakge/maven-metadata.xml (300 B)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.440 s
+[INFO] Finished at: 2018-06-13T04:59:55+00:00
+[INFO] Final Memory: 7M/17M
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

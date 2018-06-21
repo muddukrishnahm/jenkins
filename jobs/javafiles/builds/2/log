@@ -1,0 +1,20 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/javafiles
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/muddukrishnahm/javafiles.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/javafiles.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/javafiles.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e15e6588e95693a83276eda32958192a8dd8574c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e15e6588e95693a83276eda32958192a8dd8574c
+Commit message: "few java files"
+ > git rev-list --no-walk e15e6588e95693a83276eda32958192a8dd8574c # timeout=10
+[javafiles] $ /bin/sh -xe /tmp/jenkins6084040948720412820.sh
++ cd /home/ec2-user/workspace/javaproject
+/tmp/jenkins6084040948720412820.sh: line 2: cd: /home/ec2-user/workspace/javaproject: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

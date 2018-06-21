@@ -1,0 +1,74 @@
+Started by user [8mha:////4CjD3ZBDFg3s/yXE0Pe/k+96Imhxafnmp/UTJsvgIF2uAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mmuddukrishna
+Building remotely on [8mha:////4DOs4g+NCv3eja2sOFtvy/f3CwZTG8LQc6B39EnIyeuuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/bTMouISABf4flDEAAAA[0mfirst in workspace /home/ec2-user/workspace/java_project2
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/muddukrishnahm/hub1.git # timeout=10
+Fetching upstream changes from https://github.com/muddukrishnahm/hub1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/muddukrishnahm/hub1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse origin/branch1^{commit} # timeout=10
+Checking out Revision 36fe681c5e7989a7ce565e162da47caf12840e88 (origin/branch1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 36fe681c5e7989a7ce565e162da47caf12840e88
+Commit message: "adding src files to barnch1"
+ > git rev-list --no-walk 36fe681c5e7989a7ce565e162da47caf12840e88 # timeout=10
+[java_project2] $ /bin/sh -xe /tmp/jenkins4452233446534204004.sh
++ cd /home/ec2-user/workspace2/Java
++ mvn clean deploy
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Java 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace2/Java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ Java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace2/Java/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ Java ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Java ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ Java ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [Java] in [/home/ec2-user/workspace2/Java/target/Java-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ec2-user/workspace2/Java/src/main/webapp]
+[INFO] Webapp assembled in [25 msecs]
+[INFO] Building war: /home/ec2-user/workspace2/Java/target/Java-1.0-SNAPSHOT.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Java ---
+[INFO] Installing /home/ec2-user/workspace2/Java/target/Java-1.0-SNAPSHOT.war to /home/ec2-user/.m2/repository/org/java2/com/Java/1.0-SNAPSHOT/Java-1.0-SNAPSHOT.war
+[INFO] Installing /home/ec2-user/workspace2/Java/pom.xml to /home/ec2-user/.m2/repository/org/java2/com/Java/1.0-SNAPSHOT/Java-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ Java ---
+Downloading: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/1.0-SNAPSHOT/maven-metadata.xml
+Uploading: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/1.0-SNAPSHOT/Java-1.0-20180611.184516-1.war
+3/3 KB            Uploaded: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/1.0-SNAPSHOT/Java-1.0-20180611.184516-1.war (3 KB at 841.8 KB/sec)
+Uploading: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/1.0-SNAPSHOT/Java-1.0-20180611.184516-1.pom
+2/2 KB            Uploaded: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/1.0-SNAPSHOT/Java-1.0-20180611.184516-1.pom (2 KB at 1374.0 KB/sec)
+Downloading: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/maven-metadata.xml
+         Uploading: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/1.0-SNAPSHOT/maven-metadata.xml
+761/761 B               Uploaded: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/1.0-SNAPSHOT/maven-metadata.xml (761 B at 743.2 KB/sec)
+Uploading: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/maven-metadata.xml
+275/275 B               Uploaded: file:///home/ec2-user/workspace2/Java/target/hub1/branch1/org/java2/com/Java/maven-metadata.xml (275 B at 268.6 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.674 s
+[INFO] Finished at: 2018-06-11T18:45:16+00:00
+[INFO] Final Memory: 7M/17M
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
